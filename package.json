@@ -1,6 +1,7 @@
 {
   "name": "foodmine-react",
   "version": "1.0.0",
+  "description": ""
   "main": "index.js",
   "dependencies": {
     "js-tokens": "^4.0.0",
@@ -14,21 +15,13 @@
   },
   "scripts": {
     "start":"cd backend && npm start",
+    "prebuild":"cd backend && npm install & cd frontend && npm install",
     "build": "cd frontend && npm run build",
    "postbuild": "move frontend/build backend/src/public"
 
     
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Manu040405/FOODMINE-PROJECT.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Manu040405/FOODMINE-PROJECT/issues"
-  },
-  "homepage": "https://github.com/Manu040405/FOODMINE-PROJECT#readme",
-  "description": ""
 }
