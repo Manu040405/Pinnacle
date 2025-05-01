@@ -24,4 +24,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "engine":{
+    "node":">=18",
+  },
 }
